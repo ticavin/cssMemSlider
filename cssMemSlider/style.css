@@ -135,6 +135,6 @@ margin-top: 1em;
     .fist3 {
     flex-grow: 1;
     order: 2;
-    margin-left: 0;
+    margin-right: 11em;
     }
   }
