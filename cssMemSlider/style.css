@@ -33,7 +33,6 @@ overflow: hidden;
 margin-left: auto;
 width: 25em;
 height: 6.25em;
-
 }
 #slides{
     width: 400%;
@@ -71,6 +70,11 @@ margin-top: 1em;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 0.3em;
+    top:-1em;
+    left:-0.1em;
+    right:-0.1em;
+    bottom:-0.1em;
+
 }
 #bullets label:hover {
     background: #fff;
@@ -135,6 +139,8 @@ margin-top: 1em;
     .fist3 {
     flex-grow: 1;
     order: 2;
-    margin-right: 11em;
+    }
+    #bullets{
+        justify-content: center;
     }
   }
